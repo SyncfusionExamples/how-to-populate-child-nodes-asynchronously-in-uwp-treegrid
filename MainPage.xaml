@@ -1,0 +1,15 @@
+﻿<Page x:Class="OnDemandLoading.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:OnDemandLoading"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:syncfusion="using:Syncfusion.UI.Xaml.TreeGrid"
+      mc:Ignorable="d">
+    <Page.DataContext>
+        <local:ViewModel />
+    </Page.DataContext>
+    <Grid x:Name="Root_Grid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+       <syncfusion:SfTreeGrid Name="treeGrid" ShowRowHeader="True" AllowResizingColumns="True"   />
+    </Grid>
+</Page>

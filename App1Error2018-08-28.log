@@ -1,0 +1,9 @@
+
+
+Date:2018-08-28 11:52:51,319
+Thread:[1]
+Level:ERROR
+Logger:Microsoft.SyncfusionAssemblyReference.SyncfusionAssemblyReferencePackage                         [(null)]
+Message:System.NotImplementedException: Not implemented (Exception from HRESULT: 0x80004001 (E_NOTIMPL))
+   at EnvDTE.Project.get_FullName()
+   at Microsoft.SyncfusionAssemblyReference.SyncfusionAssemblyReferencePackage.GetPlatformNames(String projectGuid)
