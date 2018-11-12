@@ -1,4 +1,4 @@
-# how-to-populate-child-nodes-asynchronously-in-uwp-treegrid
+# How to populate child nodes asynchronously in uwp treegrid?
 
 ## About the example
 
