@@ -1,10 +1,8 @@
-# How to populate child nodes asynchronously in uwp treegrid?
+# How to Populate Child Nodes Asynchronously in UWP TreeGrid?
 
-## About the example
+This example illustrates how to populate child nodes asynchronously in [UWP TreeGrid](https://www.syncfusion.com/uwp-ui-controls/treegrid) (SfTreeGrid).
 
-This example illustrates how to populate child nodes asynchronously in `UWP TreeGrid`.
-
-You can populate the child nodes asynchronously using `async` and `await` at runtime when retrieving data from web services or any database. This can be performed by `PopulateChildNodes` method from `TreeGridRequestTreeItemsEventArgs.ParentNode` property.
+You can populate the child nodes asynchronously using **async** and **await** at runtime when retrieving data from web services or any database. This can be performed by [PopulateChildNodes](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.TreeGrid.TreeNode.html#Syncfusion_UI_Xaml_TreeGrid_TreeNode_PopulateChildNodes_System_Collections_Generic_IEnumerable_System_Object__) method from [TreeGridRequestTreeItemsEventArgs.ParentNode](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.TreeGrid.TreeGridRequestTreeItemsEventArgs.html#Syncfusion_UI_Xaml_TreeGrid_TreeGridRequestTreeItemsEventArgs_ParentNode) property.
 
 ``` c#
 private async void TreeGrid_RequestTreeItems(object sender, TreeGridRequestTreeItemsEventArgs args)
